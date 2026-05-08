@@ -2,9 +2,13 @@
 
 **One login is not enough. Trust needs its own layer.**
 
-AI-speed fraud is moving faster than legacy platforms can patch.
+> A platform can deliver workflow without owning all trust.
 
-Schools, universities, companies, and public institutions now depend on cloud platforms for identity, communication, records, workflow, and continuity. The problem is not that these platforms have no value. The problem is that too much trust is concentrated inside vendor-controlled environments.
+Modern organizations depend on cloud platforms for identity, communication, records, workflow, coordination, and continuity. These platforms often provide real value. The risk begins when too much institutional trust is concentrated inside one vendor-controlled environment.
+
+The issue is not platform use.
+
+The issue is sole custody.
 
 A login only answers:
 
@@ -20,11 +24,11 @@ A trust layer asks:
 - What still works if the platform fails?
 - What can be proven outside the vendor?
 
-This repository is a public starter framework for thinking about vendor-independent trust, identity proof, communication verification, platform continuity, and AI fraud prevention.
+This repository is a public framework for vendor-independent trust thinking: identity proof, communication verification, platform continuity, dependency awareness, and AI fraud prevention.
 
 It is not a replacement for learning platforms, student information systems, productivity suites, payment systems, or enterprise software.
 
-It is a warning and a blueprint:
+It is a category signal:
 
 > Keep the platform. Remove sole custody.
 
@@ -32,26 +36,35 @@ It is a warning and a blueprint:
 
 ## Why this exists
 
-The next generation of fraud will not only break into systems.
+Institutions are increasingly built around platform dependency.
 
-It will imitate people.  
-It will copy tone.  
-It will exploit exposed context.  
-It will move faster than manual review.  
-It will target trust, not just passwords.
+A school may depend on one platform for learning delivery, student communication, course records, staff coordination, and continuity. A company may depend on one cloud suite for identity, files, messages, approvals, and recovery. A public agency may depend on vendor-hosted systems for operational memory and citizen-facing workflows.
 
-Modern organizations need a layer that can verify identity, communication, access, custody, continuity, and recovery across the systems they already use.
+That concentration creates a trust problem.
+
+If one system becomes unavailable, compromised, delayed, or untrusted, the organization may lose more than access. It may lose confidence in what happened, who acted, what changed, and what can still be proven.
+
+AI-enabled fraud makes that dependency more dangerous because exposed context can be reused at speed. Attackers may imitate tone, timing, roles, relationships, and familiar workflows.
+
+The risk is not only stolen data.
+
+The risk is trusted context being reused against the institution.
+
+Modern organizations need an independent trust layer that can support verification, continuity, and proof across the systems they already use.
 
 ---
 
-## What this starter kit includes
+## What this framework includes
 
-- A trust layer manifesto
-- A school/platform risk model
+- Trust layer doctrine
+- Public trust principles
+- School/platform risk model
+- Vendor dependency audit
 - AI fraud prevention checklist
-- Vendor dependency audit template
-- Public JSON event schemas
-- Sample trust reports and warning artifacts
+- Canvas case note
+- AI impersonation risk flow
+- Platform failure continuity framework
+- Media talking points
 
 ---
 
@@ -68,30 +81,33 @@ This repository does **not** contain:
 - vendor-specific breach claims
 - legal, compliance, or cybersecurity certification
 
-This is a public reference framework for awareness, discussion, planning, and early-stage design.
+This is a public reference framework for awareness, discussion, planning, category definition, and early-stage design.
 
 ---
 
-## Core principle
+## Board-ready use cases
 
-> A platform can deliver workflow without owning all trust.
+This framework can help institutions ask sharper questions about:
 
-Organizations should be able to keep the platforms they rely on while reducing dependency on any single vendor as the sole source of identity, communication, records, continuity, and proof.
+### Education platform dependency
 
----
+Where do learning systems hold identity, communication, coursework, messages, records, and continuity without an independent trust layer beside them?
 
-## Public use cases
+### Vendor custody concentration
 
-This framework can help teams think through:
+Which vendors have become de facto custody points for operational memory, communication proof, access history, and recovery evidence?
 
-- school LMS dependency risk
-- student/staff identity continuity
-- AI impersonation and phishing risk
-- vendor-held communication records
-- platform outage continuity
-- independent audit trails
-- emergency recovery packets
-- board-level risk reporting
+### AI impersonation readiness
+
+Can the institution detect or challenge believable messages that reuse exposed context, familiar tone, trusted names, or expected workflows?
+
+### Platform failure continuity
+
+If a critical platform becomes unavailable or untrusted, what can still be verified, accessed, communicated, and proven outside the vendor?
+
+### Independent proof planning
+
+What evidence, audit trails, snapshots, and communication records should survive platform disruption?
 
 ---
 
@@ -100,28 +116,24 @@ This framework can help teams think through:
 ```text
 ai-trust-layer/
 ├── README.md
-├── LICENSE
+├── AI-TRUST-LAYER-DOCTRINE.md
 ├── TRUST-LAYER-MANIFESTO.md
+├── TRUST-LAYER-PRINCIPLES.md
 ├── SCHOOL-PLATFORM-RISK-MODEL.md
-├── AI-FRAUD-PREVENTION-CHECKLIST.md
 ├── VENDOR-DEPENDENCY-AUDIT.md
-├── schemas/
-│   ├── identity-proof-event.schema.json
-│   ├── communication-proof-event.schema.json
-│   ├── access-risk-event.schema.json
-│   └── continuity-snapshot.schema.json
-└── examples/
-    ├── sample-school-trust-report.md
-    ├── sample-vendor-risk-map.md
-    └── sample-ai-impersonation-alert.md
+├── AI-FRAUD-PREVENTION-CHECKLIST.md
+├── CANVAS-CASE-NOTE.md
+├── AI-IMPERSONATION-RISK-FLOW.md
+├── WHAT-SURVIVES-PLATFORM-FAILURE.md
+└── MEDIA-TALKING-POINTS.md
 ```
 
 ---
 
-## Starter position
+## What this points toward
 
 The future is not only stronger passwords.
 
-The future is independent proof that can survive platform failure, vendor compromise, impersonation, and AI-speed manipulation.
+The future is independent trust infrastructure that can preserve identity continuity, communication proof, platform-failure resilience, and institutional confidence across systems.
 
 **One login is not enough. Trust needs its own layer.**
