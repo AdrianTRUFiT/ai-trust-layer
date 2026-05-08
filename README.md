@@ -56,15 +56,13 @@ Modern organizations need an independent trust layer that can support verificati
 
 ## What this framework includes
 
-- Trust layer doctrine
-- Public trust principles
+This launch version intentionally includes only complete, defensible public documents:
+
+- Trust layer manifesto
 - School/platform risk model
-- Vendor dependency audit
 - AI fraud prevention checklist
-- Canvas case note
-- AI impersonation risk flow
-- Platform failure continuity framework
-- Media talking points
+
+Additional working notes, case notes, schemas, and media materials may be developed separately before public release.
 
 ---
 
@@ -116,16 +114,9 @@ What evidence, audit trails, snapshots, and communication records should survive
 ```text
 ai-trust-layer/
 ├── README.md
-├── AI-TRUST-LAYER-DOCTRINE.md
 ├── TRUST-LAYER-MANIFESTO.md
-├── TRUST-LAYER-PRINCIPLES.md
 ├── SCHOOL-PLATFORM-RISK-MODEL.md
-├── VENDOR-DEPENDENCY-AUDIT.md
-├── AI-FRAUD-PREVENTION-CHECKLIST.md
-├── CANVAS-CASE-NOTE.md
-├── AI-IMPERSONATION-RISK-FLOW.md
-├── WHAT-SURVIVES-PLATFORM-FAILURE.md
-└── MEDIA-TALKING-POINTS.md
+└── AI-FRAUD-PREVENTION-CHECKLIST.md
 ```
 
 ---
