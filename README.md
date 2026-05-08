@@ -34,6 +34,18 @@ It is a category signal:
 
 ---
 
+## Research position
+
+AI capability is accelerating faster than trust architecture.
+
+This repository exists to make that gap legible. It is a public research surface for trust continuity, authorship, authority, platform dependency, and governed intelligence architecture.
+
+The question is not only whether AI systems can answer.
+
+The question is whether institutions can preserve identity, intent, context, proof, and continuity when platforms, models, accounts, vendors, or cloud systems fail.
+
+---
+
 ## Why this exists
 
 Institutions are increasingly built around platform dependency.
@@ -54,15 +66,22 @@ Modern organizations need an independent trust layer that can support verificati
 
 ---
 
-## What this framework includes
+## Current public documents
 
-This launch version intentionally includes only complete, defensible public documents:
+This repository is being published in deliberate waves. Each document answers a question raised by the prior layer.
 
-- Trust layer manifesto
-- School/platform risk model
-- AI fraud prevention checklist
+### Wave One — Naming the trust gap
 
-Additional working notes, case notes, schemas, and media materials may be developed separately before public release.
+- [Research Position](RESEARCH-POSITION.md)
+- [Trust Layer Manifesto](TRUST-LAYER-MANIFESTO.md)
+- [School Platform Risk Model](SCHOOL-PLATFORM-RISK-MODEL.md)
+- [AI Fraud Prevention Checklist](AI-FRAUD-PREVENTION-CHECKLIST.md)
+
+### Wave Two — Platform failure continuity
+
+- [What Survives Platform Failure?](WHAT-SURVIVES-PLATFORM-FAILURE.md)
+
+Additional case notes, schemas, model-dependency analysis, and governed architecture documents may be developed separately before public release.
 
 ---
 
@@ -114,9 +133,11 @@ What evidence, audit trails, snapshots, and communication records should survive
 ```text
 ai-trust-layer/
 ├── README.md
+├── RESEARCH-POSITION.md
 ├── TRUST-LAYER-MANIFESTO.md
 ├── SCHOOL-PLATFORM-RISK-MODEL.md
-└── AI-FRAUD-PREVENTION-CHECKLIST.md
+├── AI-FRAUD-PREVENTION-CHECKLIST.md
+└── WHAT-SURVIVES-PLATFORM-FAILURE.md
 ```
 
 ---
@@ -126,5 +147,9 @@ ai-trust-layer/
 The future is not only stronger passwords.
 
 The future is independent trust infrastructure that can preserve identity continuity, communication proof, platform-failure resilience, and institutional confidence across systems.
+
+Code is no longer the hardest part.
+
+The hardest part is building a system that still knows what it is when the code starts moving fast.
 
 **One login is not enough. Trust needs its own layer.**
